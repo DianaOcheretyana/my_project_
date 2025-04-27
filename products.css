@@ -1,0 +1,75 @@
+/* Стилі для сторінки товарів */
+.search-bar {
+    margin: 2rem 0;
+    text-align: center;
+  }
+  
+  .search-bar input {
+    padding: 0.75rem;
+    width: 60%;
+    max-width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .search-bar input:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+  }
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .grid-product {
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .grid-product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .grid-product img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .grid-product h3 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+  }
+  
+  .grid-product p {
+    color: #e74c3c;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .grid-product button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .grid-product button:hover {
+    background-color: #2980b9;
+  }
+

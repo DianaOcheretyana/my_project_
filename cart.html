@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Кошик - Магазин</title>
+  <link rel="stylesheet" href="css/header-footer.css">
+  <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+  <header>
+    <h1>Мій Магазин</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="products.html">Товари</a></li>
+        <li><a href="cart.html">Кошик</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Ваш кошик</h2>
+    <div class="cart-items">
+      <div class="cart-item">
+        <img src="https://via.placeholder.com/80x80" alt="Товар 1">
+        <div>
+          <h3>Товар 1</h3>
+          <p>Ціна: 100 грн</p>
+        </div>
+        <div>
+          <input type="number" value="1" min="1">
+          <button>Видалити</button>
+        </div>
+      </div>
+      <div class="cart-item">
+        <img src="https://via.placeholder.com/80x80" alt="Товар 2">
+        <div>
+          <h3>Товар 2</h3>
+          <p>Ціна: 150 грн</p>
+        </div>
+        <div>
+          <input type="number" value="1" min="1">
+          <button>Видалити</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="checkout-form">
+      <h3>Оформлення замовлення</h3>
+      <form>
+        <input type="text" placeholder="Ваше ім'я" required>
+        <input type="email" placeholder="Ваш email" required>
+        <input type="tel" placeholder="Ваш телефон" required>
+        <textarea placeholder="Адреса доставки" required></textarea>
+        <button type="submit">Оформити замовлення</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Мій Магазин. Усі права захищені.</p>
+  </footer>
+</body>
+</html>
